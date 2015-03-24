@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: User Token (ut)!
+tagline: Usercentric Userowned Asset Management
 ---
 {% include JB/setup %}
 
