@@ -1,9 +1,0 @@
-DATE=`/bin/date`;
-
-[ -d ./usertoken.github.io ] && echo "deleting old ./usertoken.github.io" && /bin/rm -rf ./usertoken.github.io;
-git clone  https://usertoken@github.com/usertoken/usertoken.github.io.git;
-( rm -rf ./build/.git; cp -r ./usertoken.github.io/.git ./build;cd ./build;git add -A .;git commit -m "Build $DATE";git push );
-
-# for re-deployment
-#( cd ./build;git add -A .;git commit -m "Build $DATE";git push );
-
